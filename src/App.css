@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.div-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  color: #f3aa4e;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.input-select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.text-element {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.input-text {
+  height: 20px;
+  width: 350px;
+  background-color: #ffffff;
+  color: #323f4b;
+}
+
+.add-task-button {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.down-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.down-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.list-item {
+  list-style-type: none;
+}
+.tag-button {
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+  border: solid #ffffff 1px;
+}
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tasks-given-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task-item-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-style {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 15px;
+}
+.category-style {
+  background-color: #f3aa4e;
+  color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 15px;
+}
